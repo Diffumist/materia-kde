@@ -2,16 +2,16 @@ import QtQuick 2.8
 import QtGraphicalEffects 1.0
 
 Rectangle {
-    color:"transparent"
-    width:130
+    color: "transparent"
+    width: 130
     height: 32
     border.width: 0
-    
+
     Text {
         id: text
         color: "#ffffff"
-        font.pixelSize : 14
-        text: textConstants.shutdown
+        font.pixelSize: 14
+        text: "Shutdown"
         anchors.fill: parent
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
